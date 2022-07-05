@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - main function
- * 
+ *
  * Return: End program
  */
 int main(void)
@@ -14,6 +14,8 @@ int main(void)
 		_putchar(string[n]);
 		++n;
 	}
+
 	_putchar(10);
 	return (0);
+
 }
