@@ -1,7 +1,7 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef HEADER_FILE
+#define HEADER_FILE
 /**
- * struct dog
+ * struct dog- Define a new type struct dog
  * @name: First member
  * @age: Second member
  * @owner: Third member
@@ -12,12 +12,7 @@ struct dog
 {
 	char *name;
 	float age;
-	char *owner
+	char *owner;
 };
 
-int main(void)
-{
-	struct dog my_dog;
-
-	return (0);
-};
+#endif
