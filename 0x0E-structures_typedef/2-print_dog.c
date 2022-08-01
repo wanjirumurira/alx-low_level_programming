@@ -2,9 +2,7 @@
 #include "dog.h"
 /**
  *print_dog- A function that prints struct dog
- * @name: First member
- * @age: Second member
- * @owner: Third member
+ *@d: The struct dog to be print
  *
  * Description:A function that prints struct dog
  */
